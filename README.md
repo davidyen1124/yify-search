@@ -1,28 +1,16 @@
-yify-query
+yify-search
 ==========
-[![NPM version](https://badge.fury.io/js/yify-query.svg)](http://badge.fury.io/js/yify-query)
-[![Build Status](https://travis-ci.org/davidyen1124/yify-query.svg?branch=master)](https://travis-ci.org/davidyen1124/yify-query)
-[![Dependency Status](https://david-dm.org/davidyen1124/yify-query.svg)](https://david-dm.org/davidyen1124/yify-query)
+[![NPM version](https://badge.fury.io/js/yify-search.svg)](https://badge.fury.io/js/yify-search)
+[![Build Status](https://travis-ci.org/davidyen1124/yify-search.svg?branch=master)](https://travis-ci.org/davidyen1124/yify-search)
+[![Dependency Status](https://david-dm.org/davidyen1124/yify-search.svg)](https://david-dm.org/davidyen1124/yify-search)
 
-Find torrent magnet links from the yify database directly from the command line or in your node modules
+Find movies on yts.ag
 
-
-Command line usage
-------------------
-
-```
-$ npm install -g yify-query
-$ yify-query big hero 6
-```
-
-
-Programmatic usage
-------------------
 
 ``` javascript
-var query = require('yify-query');
+const query = require('yify-search');
 
-query('big hero 6', function (error, result) {
+query('big hero 6', (error, result) => {
   // result = {
   //   "url": "https://yts.to/torrent/download/....torrent",
   //   "hash": "...",
@@ -45,7 +33,7 @@ License
 -------
 (The MIT License)
 
-Copyright (c) 2014 Peter Müller <munter@fumle.dk>
+Copyright (c) 2016 David Yen <davidyen1124@gmail.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the 'Software'), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 

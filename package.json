@@ -1,27 +1,26 @@
 {
-  "name": "yify-query",
-  "version": "2.0.3",
-  "description": "Command line tool and lib to query and select torrent magnet links from yify",
-  "main": "lib/index",
+  "name": "yify-search",
+  "version": "1.0.0",
+  "description": "Find movies on yts.ag",
   "scripts": {
     "test": "node_modules/standard/bin/cmd.js *.js&&node_modules/mocha/bin/mocha test/*"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/davidyen1124/yify-query.git"
+    "url": "git://github.com/davidyen1124/yify-search.git"
   },
   "keywords": [
-    "cli",
     "torrent",
     "magnet",
-    "yify"
+    "yify",
+    "yts"
   ],
-  "author": "Peter Müller <munter@fumle.dk>",
+  "author": "David Yen <davidyen1124@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/davidyen1124/yify-query/issues"
+    "url": "https://github.com/davidyen1124/yify-search/issues"
   },
-  "homepage": "https://github.com/davidyen1124/yify-query",
+  "homepage": "https://github.com/davidyen1124/yify-search",
   "dependencies": {
     "request": "^2.75.0"
   },
